@@ -1,5 +1,5 @@
 #!/bin/bash
-airpot=/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport
+airport=/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport
 server=no
 #server=yes
 count=0
