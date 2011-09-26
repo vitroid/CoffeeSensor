@@ -4,9 +4,11 @@
 <dict>
 	<key>Label</key>
 	<string>local.vitroid.coffeesensor</string>
+	<key>StandardOutPath</key>
+	<string>/var/tmp/local.vitroid.coffeesensor.log</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Users/matto/github/CoffeeSensor/coffeesensor.sh</string>
+		<string>/usr/local/bin/coffeesensor.sh</string>
 	</array>
 	<key>KeepAlive</key>
 	<true/>
