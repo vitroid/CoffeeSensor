@@ -18,10 +18,10 @@ do
     then
         if [ $server = "yes" ]
         then
-	    echo "Coffee will be available at root B-131 soon!" | mail -s 'coffee' coffee@cc.okayama-u.ac.jp
+	    echo "Coffee will be available at room B-131 soon!" | mail -s 'coffee' coffee@cc.okayama-u.ac.jp
         fi
 	date=`date`
-	growlnotify --sticky --message "$date" CoffeeSensor
+	/usr/local/bin/growlnotify --sticky --message "$date" CoffeeSensor
     fi
     sleep 30
 done
